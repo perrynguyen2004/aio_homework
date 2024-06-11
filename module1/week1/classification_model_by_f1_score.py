@@ -2,6 +2,7 @@
 tp = 0.8
 fp = -3
 fn = 4.1
+
 def calculate(tp, fp, fn):
   arr = [tp, fp, fn]
   name = ['tp', 'fp', 'fn']
