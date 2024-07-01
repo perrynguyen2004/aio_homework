@@ -7,7 +7,7 @@ def load_vocab(file_path):
     words = sorted(set([line.strip().lower() for line in lines]))
     return words
 
-vocabs = load_vocab("C:\\lap trinh co ban\\CSharp\\levenshtein_distance\\levenshtein_distance\\vocab.txt")
+vocabs = load_vocab("./vocab.txt")
 
 def levenshtein_distance(token1, token2):
     distances = [[0]*(len(token2)+1) for i in range(len(token1)+1)]
